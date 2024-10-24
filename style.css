@@ -4,7 +4,7 @@ header {
       color: rgb(209, 181, 171);
 }
 body{
-background-image: url(/assets/fundo1.jpg);
+background-image: url(fundo1.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
