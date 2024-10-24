@@ -1,0 +1,110 @@
+header {
+      text-align: center;
+      font-size: 16pt;
+      color: rgb(209, 181, 171);
+}
+body{
+background-image: url(/assets/fundo1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.menupesquisa{
+
+display: inline-block;
+position: absolute;
+right:20px;
+top: 0px;
+padding-top: 40px;
+
+}
+
+button{
+border: none;
+width: 100px;
+height: 30px;
+border-radius: 10px;
+font-weight: bold;
+}
+
+.menupesquisa a{
+display: block;
+color: black;
+text-decoration: none;
+padding: 10px 15px;
+
+
+}
+.menupesquisa .conteudo{
+position: absolute;
+background-color: hwb(0 76% 16%);
+min-width: 100px;
+display: none;
+width: 100px;
+text-align: center;
+border-radius: 10px;
+
+}
+
+.menupesquisa:hover .conteudo{
+display: block;
+animation-name: descer;
+animation-duration: 1s;
+
+}
+@keyframes descer {
+      from{transform: translateY(-15px);}
+      
+      }
+     section{
+      display: block;
+      margin: auto;
+      font-size: 12pt;
+      font-weight: bold;
+      text-align: center;
+      background-color: rgba(202, 182, 182, 0.5); /* 50% transparent gray */
+      width: 600px;
+      border-radius: 20px;
+      color: white;       
+      padding-top: -40px;
+     }
+#biografia{
+      height: 250px;
+}
+#obras{
+      height: 500px;
+      width: 1000px;
+}
+
+.monalisa{
+      position: relative;
+      bottom: 20px;
+      border-radius: 20px;
+}
+
+.monalisatexto{
+      display: inline-block;
+      position: relative;
+      font-size: 10pt;
+      right: 200px;
+      width: 250px;
+      top: 100px;
+}
+
+
+.ultimaceia{
+      position: relative;
+      top: -125px;
+      left: -100px;
+}
+
+
+
+.descriçãoceia{
+      display: inline-block;
+      position: relative;
+      font-size: 10pt;
+      right: 350px;
+      width: 200px;
+      top: 20px;
+}
